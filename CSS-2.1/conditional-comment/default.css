@@ -1,0 +1,13 @@
+#rouge {
+	width: 200px;
+	height: 150px;
+	float: left;
+	background-color: red;
+	margin: 20px;
+}
+
+#rouge p {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}

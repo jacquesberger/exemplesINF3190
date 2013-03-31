@@ -1,0 +1,28 @@
+body {
+	background: #006400;
+}
+
+#page {
+	width: 900px;
+	margin: auto;
+	background: #FFFFFF;
+	line-height: 200%;
+}
+
+th {
+	text-align: left;
+	font-size: 18px;
+}
+
+th.sigle {
+	width: 150px;
+}
+
+th.titre {
+	width: 600px;
+}
+
+th.credits {
+	width: 150px;
+}
+
