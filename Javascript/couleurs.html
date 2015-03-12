@@ -1,35 +1,35 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Couleurs</title>
+  <head>
+    <meta charset="utf-8">
+    <title>Couleurs</title>
 
-<script type="text/javascript">
-	function changeBGColor(colorName) {
-		var bodyElement = document.getElementsByTagName("body")[0];
-		bodyElement.style.backgroundColor = colorName;
-	}
-	
-	function resetBGColor() {
-		changeBGColor("white");
-	}
-</script>
+    <script>
+      function changeBGColor(colorName) {
+        var bodyElement = document.getElementsByTagName("body")[0];
+        bodyElement.style.backgroundColor = colorName;
+      }
+      
+      function resetBGColor() {
+        changeBGColor("white");
+      }
+    </script>
 
-</head>
-<body>
-	<table style="border-spacing=0px" border="3">
-		<tr>
-			<td onmouseover="changeBGColor('red');" onmouseout="resetBGColor();">Rouge</td>
-			<td onmouseover="changeBGColor('blue');" onmouseout="resetBGColor();">Bleu</td>
-			<td onmouseover="changeBGColor('green');" onmouseout="resetBGColor();">Vert</td>
-			<td onmouseover="changeBGColor('gray');" onmouseout="resetBGColor();">Gris</td>
-		</tr>
-		<tr>
-			<td onmouseover="changeBGColor('purple');" onmouseout="resetBGColor();">Mauve</td>
-			<td onmouseover="changeBGColor('yellow');" onmouseout="resetBGColor();">Jaune</td>
-			<td onmouseover="changeBGColor('maroon');" onmouseout="resetBGColor();">Brun</td>
-			<td onmouseover="changeBGColor('silver');" onmouseout="resetBGColor();">Argent</td>
-		</tr>
-	</table>
-</body>
+  </head>
+  <body>
+    <table style="border-spacing:0px; border-style:solid; border-width:3px">
+      <tr>
+        <td onmouseover="changeBGColor('red');" onmouseout="resetBGColor();">Rouge</td>
+        <td onmouseover="changeBGColor('blue');" onmouseout="resetBGColor();">Bleu</td>
+        <td onmouseover="changeBGColor('green');" onmouseout="resetBGColor();">Vert</td>
+        <td onmouseover="changeBGColor('gray');" onmouseout="resetBGColor();">Gris</td>
+      </tr>
+      <tr>
+        <td onmouseover="changeBGColor('purple');" onmouseout="resetBGColor();">Mauve</td>
+        <td onmouseover="changeBGColor('yellow');" onmouseout="resetBGColor();">Jaune</td>
+        <td onmouseover="changeBGColor('maroon');" onmouseout="resetBGColor();">Brun</td>
+        <td onmouseover="changeBGColor('silver');" onmouseout="resetBGColor();">Argent</td>
+      </tr>
+    </table>
+  </body>
 </html>

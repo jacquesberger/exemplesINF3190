@@ -1,37 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Ouvrir une fenêtre avec un bouton</title>
-<script type="text/javascript">
-    var blackWindow = null;
-    
-	function openWindow() {
-		blackWindow = window.open("pour-ouvrir.html");
-	}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ouvrir une fenêtre avec un bouton</title>
+    <script>
+      var blackWindow = null;
 
-	function openSizedWindow() {
-		blackWindow = window.open("pour-ouvrir.html", "blackwindow", "width=450,height=250");
-	}
-	
-	function closeWindow() {
-		blackWindow.close();
-		blackWindow = null;
-	}
-</script>
-</head>
-<body>
-	<p>Une fonctionnalité pour ouvrir une nouvelle fenêtre à l'aide
-		d'un bouton.</p>
-	<p>
-		<button onclick="openWindow();">Ouvrir la fenêtre noire</button>
-	</p>
-	<p>
-		<button onclick="openSizedWindow();">Ouvrir la fenêtre noire avec dimensions fixes</button>
-	</p>
-	<p>
-        <button onclick="closeWindow();">Fermer la fenêtre noire</button>
+      function openWindow() {
+        blackWindow = window.open("pour-ouvrir.html");
+      }
+
+      function openSizedWindow() {
+        blackWindow = window.open("pour-ouvrir.html", "blackwindow", "width=450,height=250");
+      }
+      
+      function closeWindow() {
+        blackWindow.close();
+        blackWindow = null;
+      }
+    </script>
+  </head>
+  <body>
+    <p>Une fonctionnalité pour ouvrir une nouvelle fenêtre à l'aide
+      d'un bouton.</p>
+    <p>
+      <button onclick="openWindow();">Ouvrir la fenêtre noire</button>
     </p>
-</body>
+    <p>
+      <button onclick="openSizedWindow();">Ouvrir la fenêtre noire avec dimensions fixes</button>
+    </p>
+    <p>
+      <button onclick="closeWindow();">Fermer la fenêtre noire</button>
+    </p>
+  </body>
 </html>
