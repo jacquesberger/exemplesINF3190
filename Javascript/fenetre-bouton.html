@@ -15,8 +15,10 @@
       }
       
       function closeWindow() {
-        blackWindow.close();
-        blackWindow = null;
+        if (blackWindow) {
+          blackWindow.close();
+          blackWindow = null;
+        }
       }
     </script>
   </head>
