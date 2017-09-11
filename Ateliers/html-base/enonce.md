@@ -1,7 +1,7 @@
 HTML de base
 ============
 
-À l'aide du HTML, vous allez construire une page web contenant votre CV. Vous ne
+Vous devez construire une page web contenant votre CV. Vous ne
 devez utiliser que le HTML, sans CSS. Évidemment, votre page web ne sera pas la
 plus jolie en n'utilisant que les valeurs par défaut du fureteur.
 
@@ -28,12 +28,13 @@ et tous les avertissements.
    de téléphone, courriel). Affichez l'adresse comme sur une enveloppe postale
    et le téléphone et le courriel chacun sur sa propre ligne. Utilisez les
    balises `p` et `br` pour y parvenir. Il ne doit pas y avoir de séparation de
-   paragraphe entre les coordonnées de correspondance.
+   paragraphe entre les lignes des coordonnées de correspondance.
 
 3. Ajoutez une section décrivant vos objectifs de carrière. Dans toutes les
    sections, il doit d'abord y avoir un titre (balise `h2`) et ensuite le
    contenu. Dans ce cas-ci, le contenu doit être un paragraphe expliquant vos
-   objectifs professionnels.
+   objectifs professionnels. Placez une ligne horizontale (balise `hr`) entre
+   chaque section.
 
 4. Transformez le courriel dans vos coordonnées de correspondance en lien.
    Utilisez la balise `a` avec un `mailto`.
@@ -43,7 +44,7 @@ et tous les avertissements.
    programmation et d'outils informatiques que vous connaissez.
 
 6. Ajoutez une section sur vos expériences professionnelles. La section doit
-   contenir un tableau (balises `table`, `thead`, `tbody`, `tfoot`, `tr`, `th`,
+   contenir un tableau (balises `table`, `thead`, `tbody`, `tr`, `th`,
    `td`). Le tableau doit contenir une rangée d'entêtes et une rangée pour
    chaque emploi que vous avez eu. Placez au moins 3 emplois. Le tableau doit
    contenir 4 colonnes : l'année de l'emploi, le titre de votre poste, le nom de
