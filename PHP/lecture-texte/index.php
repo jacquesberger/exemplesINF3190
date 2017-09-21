@@ -11,6 +11,15 @@ function generateFirstnameList() {
   fclose($file);
   echo "</ul>";
 }
+
+function generateFirstnameList2() {
+  echo "<ul>";
+  foreach (file("./content.txt") as $line) {
+    $trimmedValue = trim($line);
+    echo "<li>{$trimmedValue}</li>";
+  }
+  echo "</ul>";
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,6 +29,6 @@ function generateFirstnameList() {
   </head>
   <body>
     <p>Liste de prénoms :</p>
-    <?php generateFirstnameList(); ?>
+    <?php generateFirstnameList2(); ?>
   </body>
 </html>
