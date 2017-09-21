@@ -16,7 +16,7 @@ function generateFirstnameList() {
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Exemple PHP</title>
+    <title>Lecture d'un fichier texte</title>
   </head>
   <body>
     <p>Liste de prénoms :</p>
