@@ -1,8 +1,15 @@
 Multimedia
 ==========
 
+L'inclusion d'éléments multimédia dans les pages web a vécu plusieurs modes au
+travers des années. Bien que la nature du multimédia ait changé avec le temps,
+il n'en demeure pas moins que ces éléments sont récurrents.
+
 Objectifs
 =========
+
+* Manipuler les éléments de base du multimédia.
+* Manipuler quelques formats différents.
 
 Exercices
 =========
