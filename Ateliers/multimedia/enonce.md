@@ -14,7 +14,10 @@ Objectifs
 Exercices
 =========
 
-1. Créez une page HTML statique avec cet élément dans le `body` : `<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>`.
+1. Créez une page HTML statique avec cet élément dans le `body` : 
+   ```html
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+   ```
    Sur [YouTube](http://youtube.com/), il est possible d'obtenir un bout de code
    comme celui-ci pour intégrer un vidéo à une page web. Est-ce que votre
    document est valide? Pourquoi?
