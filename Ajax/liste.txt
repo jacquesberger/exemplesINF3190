@@ -1,0 +1,6 @@
+INF3005 - Programmation web
+INF5151 - Génie logiciel : analyse et modélisation
+INF5180 - Conception et exploitation des bases de données
+INF2015 - Développement de logiciels dans un environnement Agile
+INF3105 - Structures de données et algorithmes
+INF1256 - Informatique pour les sciences de la gestion
