@@ -13,6 +13,11 @@
         <li>Aucun cours</li>
       </ul>
     </div>
-    <button type="button" onclick="chargerListeCours();">Charger la liste</button>
+    <button id="load-data" type="button">Charger la liste</button>
+    <script>
+let element = document.getElementById("load-data");
+console.log(element);
+element.addEventListener("click", chargerListeCours);
+    </script>
   </body>
 </html>
