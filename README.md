@@ -1,4 +1,4 @@
-exemplesINF2005
+exemplesINF3190
 ===============
 
-Les exemples présentés dans le cours INF2005.
+Les exemples présentés dans le cours INF3190.
