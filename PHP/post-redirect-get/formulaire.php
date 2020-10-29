@@ -17,15 +17,15 @@
     $nom = $_POST["nom"];
     $age = intval($_POST["age"]);
 
-    if ($prenom == "") {
+    if (empty($prenom)) {
       $message = $message . "Le prénom est obligatoire. ";
     }
-    if ($nom == "") {
+    if (empty($nom)) {
       $message = $message . "Le nom est obligatoire. ";
     }
 
-    if ($message == "") {
-      header("Location: confirmation.php", true, 303);
+    if (empty($message)) {
+      header("Location: confirmation.php?nom={$nom}&prenom={$prenom}", true, 303);
       exit;
     } 
   }
@@ -38,7 +38,7 @@
   </head>
   <body>
     <h2>Formulaire d'inscription</h2>
-    <?php if ($message != "") {
+    <?php if (!empty($message)) {
             echo "<p>{$message}</p>";
           }
      ?>
