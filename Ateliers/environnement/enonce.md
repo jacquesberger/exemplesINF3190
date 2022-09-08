@@ -20,10 +20,10 @@ fureteur Google Chrome et de ses outils intégrés :
 Exercices
 ---------
 
-1. Faites une requête HTTP GET à l'adresse jberger.org. Quelle est la version
-   utilisée par le serveur PHP qui vous répond?
+1. Faites une requête HTTP GET à l'adresse uqam.ca. Quelle est la version
+   utilisée par le serveur qui vous répond?
 
-2. Allez sur la page du cours INF2005 en cliquant dans le menu de navigation.
+2. Allez sur la page du cours INF3190 en cliquant navigant sur le site. 
    Trouvez la requête HTTP que le fureteur a envoyé pour produire la page du
    cours.
 
@@ -32,8 +32,7 @@ Exercices
 
 4. À l'aide de l'inspecteur d'éléments, modifiez le titre du cours.
 
-5. À l'aide de l'inspecteur d'éléments, supprimez la section Matériel
-   complémentaire.
+5. À l'aide de l'inspecteur d'éléments, supprimez le titre du cours.
 
 6. Choisissez un éditeur texte qui supporte le HTML (c'est-à-dire qui offrira de
    la coloration syntaxique et des outils de manipulation de HTML). Il est
