@@ -45,4 +45,5 @@ Exercices
 8. Ajoutez une marge significative au deuxième paragraphe.
 
 9. Placez un formulaire avec 3 champs texte et 3 labels dans le bas de la page. Tentez
-   d'aligner les 3 champs texte sans utiliser de tableau.
+   d'aligner les 3 champs texte sans utiliser de tableau. Regardez les éléments
+   HTML `input` (avec l'attribut `type="text"`) et `label`.
