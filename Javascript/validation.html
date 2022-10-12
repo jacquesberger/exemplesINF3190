@@ -28,20 +28,34 @@
       }
     </script>
 
+    <style>
+      span {
+        color: red;
+      }
+    </style>
+
   </head>
   <body>
-    <form action="form.php" method="post" onsubmit="return checkRequiredFields();">
+    <form action="form.php" method="post">
       <div>
         <label for="nom">Entrez votre nom : </label>
         <input type="text" name="lname" id="nom">
-        <span style="color:red" id="error_lname"></span>
+        <span id="error_lname"></span>
         <br>
         <label for="prenom">Entrez votre prénom : </label>
         <input type="text" name="fname" id="prenom">
-        <span style="color:red" id="error_fname"></span>
+        <span id="error_fname"></span>
         <br>
         <input type="submit" value="Envoyer">
       </div>
     </form>
+    <script>
+      document.getElementsByTagName("form")[0].addEventListener("submit", function(e) {
+        let result = checkRequiredFields();
+        if (!result) {
+          e.preventDefault();
+        }
+      });
+    </script>
   </body>
 </html>
