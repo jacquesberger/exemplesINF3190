@@ -2,7 +2,7 @@ Formulaires HTML
 ================
 
 Le but de cet atelier est de vous familiariser avec le code HTML nécessaire pour
-produire des formulaires et le code PHP nécessaire pour traiter les données des
+produire des formulaires et le code Javascript nécessaire pour valider les données des
 formulaires.
 
 Objectifs
@@ -10,7 +10,7 @@ Objectifs
 
 * Se familiariser avec les formulaires HTML.
 * Manipuler différents types de contrôles.
-* Traiter les données d'un formulaire.
+* Valider les données d'un formulaire.
 
 Exercices
 ---------
@@ -27,11 +27,9 @@ Exercices
 
    Utilisez un formulaire avec la méthode POST.
 
-   Lorsqu'il reçoit les données du formulaire, le serveur doit valider les
-   données. Les 3 champs sont obligatoires et l'âge doit contenir uniquement des
-   chiffres. En cas d'erreur, on affiche une page à l'utilisateur avec un
-   message d'erreur générique du genre "Une erreur s'est glissée dans les
-   données envoyées."
+   Le fureteur doit valider les données du formulaire. Les 3 champs sont obligatoires et l'âge doit contenir uniquement des
+   chiffres. En cas d'erreur, on affiche un message générique à l'utilisateur, du genre "Une erreur s'est glissée dans les
+   données saisies."
 
 2. Ajoutez des champs pour permettre au candidat de spécifier son dernier
    diplôme obtenu. Les champs sont :
