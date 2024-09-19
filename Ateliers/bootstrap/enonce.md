@@ -19,5 +19,4 @@ Tentez de reproduire le plus fidèlement possible le formulaire suivant :
 ![Ajout d'un comité](comites.png)
 
 Notez que le formulaire est contenu dans une boîte modale. Pour le _date
-picker_, vous devrez utiliser une librairie supplémentaire. Il en existe
-plusieurs, comme [celle-ci](https://eonasdan.github.io/bootstrap-datetimepicker/).
+picker_, vous pourriez avoir besoin d'utiliser une librairie supplémentaire.
